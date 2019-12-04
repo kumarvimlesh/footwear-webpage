@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FootWear</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--CDN for font-family-->
+	<link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet"> 
+	<!--CDN for Animation animated slideInDown-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    	<nav>
+    		<div class="row clearfix">
+    			<!--img src="images/logo.jpg" class="logo"-->
+    			<ul class="main-nav animated slideInDown" id="Check-class">
+    				<li><a href="#">FootWear  Delivery</a></li>
+    				<li><a href="#">Order</a></li>
+    				<li><a href="#">Check More</a></li>
+    				<li><a href="#">SignUp</a></li>
+    			</ul>
+    			<a href="#" class="icon-menu"  onclick="showmenu()"><i class="fa fa-bars"></i></a>
+    		</div>
+    	</nav>
+    	<div class="main-content-header">
+    		<h1 class="main-heading">Welcome to the <span class="colorchange">Anshu FootWear</span><br>Shop for Best Footwear</h1>
+    	    <a href="#" class="btn btn-one">Click To Order</a>
+    	    <a href="#" class="btn btn-two">Show Me More</a>
+    	</div>
+    </header>
+    <script type="text/javascript">
+    	function showmenu() {
+    		var x=document.getElementById('Check-class');
+    		if (x.style.display==="none"){
+    			x.style.display="block";
+    		}
+    		else{
+    			x.style.display="none";
+    		}
+    	}
+    </script>
+</body>
+</html>
